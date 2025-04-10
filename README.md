@@ -13,4 +13,4 @@ This project implements a script to monitor the health of various endpoints base
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/fetch-the-most-active-workplaces-yourfork.git
+   git clone https://github.com/bini1995/sre-exercise-python.git
