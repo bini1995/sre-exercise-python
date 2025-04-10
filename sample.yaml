@@ -1,0 +1,19 @@
+- name: "Sample Body UP"
+  url: "https://dev-sre-take-home-exercise-rubric.us-east-2.recruiting-public.fetchrewards.com/body"
+  method: "POST"
+  headers:
+    content-type: application/json
+  body: '{"foo":"bar"}'
+
+- name: "Sample Index Up"
+  url: "https://dev-sre-take-home-exercise-rubric.us-east-2.recruiting-public.fetchrewards.com/"
+
+- name: "Sample Body Down"
+  url: "https://dev-sre-take-home-exercise-rubric.us-east-2.recruiting-public.fetchrewards.com/body"
+  method: "POST"
+  headers:
+    content-type: application/json
+  body: "{}"
+
+- name: "Sample Error Down"
+  url: "https://dev-sre-take-home-exercise-rubric.us-east-2.recruiting-public.fetchrewards.com/error"
